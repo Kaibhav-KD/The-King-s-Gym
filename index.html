@@ -24,7 +24,10 @@
 </head>
 <body>
   <div class="loader">
-    <div class="loader-bar"></div>
+    <div class="loader-content">
+      <h1 class="loader-title">THE KING'S GYM</h1>
+      <div class="loader-bar"></div>
+    </div>
   </div>
 
   <nav class="navbar">
@@ -517,6 +520,33 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js" defer></script>
   <script src="script.js" defer></script>
+  <script>
+    // Loading Screen Animation
+    window.addEventListener('load', function() {
+      // Wait for all resources to load
+      setTimeout(function() {
+        const loader = document.querySelector('.loader');
+        if (loader) {
+          loader.classList.add('fade-out');
+          // Remove loader from DOM after fade out
+          setTimeout(function() {
+            loader.style.display = 'none';
+          }, 500);
+        }
+      }, 2000); // Show loader for at least 2 seconds
+    });
+
+    // Fallback: Hide loader after 5 seconds regardless
+    setTimeout(function() {
+      const loader = document.querySelector('.loader');
+      if (loader && !loader.classList.contains('fade-out')) {
+        loader.classList.add('fade-out');
+        setTimeout(function() {
+          loader.style.display = 'none';
+        }, 500);
+      }
+    }, 5000);
+  </script>
   <script>
     // Smooth scroll for navbar links
     document.querySelectorAll('.navbar__link').forEach(link => {
