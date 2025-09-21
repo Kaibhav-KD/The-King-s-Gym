@@ -1712,6 +1712,10 @@ footer {
     max-width: 1500px;
   }
   
+  .hero {
+    padding-top: 120px; /* Prevent text merging with navbar */
+  }
+  
   .hero__title {
     font-size: clamp(5rem, 14vw, 12rem);
     letter-spacing: 2px;
@@ -1732,6 +1736,10 @@ footer {
 @media (max-width: 1399px) and (min-width: 1200px) {
   .content-wrapper {
     max-width: 1200px;
+  }
+  
+  .hero {
+    padding-top: 100px; /* Prevent text merging with navbar */
   }
   
   .hero__title {
@@ -1756,6 +1764,10 @@ footer {
     max-width: 992px;
   }
   
+  .hero {
+    padding-top: 90px; /* Prevent text merging with navbar */
+  }
+  
   .hero__title {
     font-size: clamp(3.5rem, 10vw, 8rem);
     letter-spacing: 1px;
@@ -1776,6 +1788,10 @@ footer {
 @media (max-width: 991px) and (min-width: 768px) {
   .content-wrapper {
     max-width: 768px;
+  }
+  
+  .hero {
+    padding-top: 80px; /* Prevent text merging with navbar */
   }
   
   .owner-container,
