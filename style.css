@@ -1832,6 +1832,105 @@ footer {
     padding-top: 80px; /* Add space for fixed navbar */
   }
   
+  /* Mobile Trainers Section */
+  .section-trainers {
+    padding: 8vh 4vw;
+  }
+  
+  .trainers-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .trainer-card {
+    margin-bottom: 2rem;
+    border-radius: 12px;
+  }
+  
+  .trainer-card__image-wrapper {
+    height: 250px;
+  }
+  
+  .trainer-card__content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .trainer-card__name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .trainer-card__specialty {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .trainer-card__experience {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .trainer-card__description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .trainer-card__certifications {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .certification {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+  }
+  
+  /* Mobile Owner Section */
+  .section-owner {
+    padding: 8vh 4vw;
+  }
+  
+  .owner-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .owner-image {
+    order: 1;
+  }
+  
+  .owner-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .owner-text {
+    order: 2;
+    text-align: center;
+  }
+  
+  .owner-text .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .owner-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .owner-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
   /* Navbar */
   .navbar {
     padding: 1rem 5vw;
@@ -1938,6 +2037,77 @@ footer {
   .hero__subtitle {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+  }
+  
+  /* Enhanced Mobile Trainers Section */
+  .section-trainers {
+    padding: 6vh 2vw;
+  }
+  
+  .trainers-container {
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .trainer-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .trainer-card__image-wrapper {
+    height: 220px;
+  }
+  
+  .trainer-card__content {
+    padding: 1.2rem;
+  }
+  
+  .trainer-card__name {
+    font-size: 1.3rem;
+  }
+  
+  .trainer-card__specialty {
+    font-size: 0.9rem;
+  }
+  
+  .trainer-card__experience {
+    font-size: 0.8rem;
+  }
+  
+  .trainer-card__description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  
+  .certification {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  /* Enhanced Mobile Owner Section */
+  .section-owner {
+    padding: 6vh 2vw;
+  }
+  
+  .owner-container {
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .owner-image img {
+    height: 250px;
+  }
+  
+  .owner-text .section-title {
+    font-size: 2rem;
+  }
+  
+  .owner-text h3 {
+    font-size: 1.3rem;
+  }
+  
+  .owner-text p {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
   
   .gallery-grid {
@@ -2154,6 +2324,77 @@ button, .btn-service, a, .plan-card__cta {
   }
   .feature-card__text {
     font-size: 1rem;
+  }
+  
+  /* Ultra Mobile Trainers Section */
+  .section-trainers {
+    padding: 5vh 1vw;
+  }
+  
+  .trainers-container {
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .trainer-card {
+    margin-bottom: 1rem;
+  }
+  
+  .trainer-card__image-wrapper {
+    height: 200px;
+  }
+  
+  .trainer-card__content {
+    padding: 1rem;
+  }
+  
+  .trainer-card__name {
+    font-size: 1.2rem;
+  }
+  
+  .trainer-card__specialty {
+    font-size: 0.85rem;
+  }
+  
+  .trainer-card__experience {
+    font-size: 0.75rem;
+  }
+  
+  .trainer-card__description {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  
+  .certification {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.4rem;
+  }
+  
+  /* Ultra Mobile Owner Section */
+  .section-owner {
+    padding: 5vh 1vw;
+  }
+  
+  .owner-container {
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .owner-image img {
+    height: 220px;
+  }
+  
+  .owner-text .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .owner-text h3 {
+    font-size: 1.2rem;
+  }
+  
+  .owner-text p {
+    font-size: 0.85rem;
+    line-height: 1.4;
   }
   
   /* Enhanced mobile navigation */
