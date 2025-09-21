@@ -1698,7 +1698,7 @@ footer {
 /* Responsive breakpoints for different screen sizes */
 @media (max-width: 1200px) {
   .content-wrapper {
-    max-width: 1200px; /* Laptop */
+    max-width: 992px; /* Laptop */
   }
 }
 
